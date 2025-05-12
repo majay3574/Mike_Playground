@@ -10,7 +10,7 @@
     "api": "json-server --watch db.json --port 3001"
   },
   "devDependencies": {
-    "vite": "^5.4.2",
+    "vite": "^6.3.5",
     "json-server": "^0.17.4"
   },
   "dependencies": {

@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "developer"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "designer"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "content": "This is the first post content",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "content": "This is the second post content",
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "Great post!",
+      "postId": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "text": "Thanks for sharing",
+      "postId": 1,
+      "userId": 1
+    }
+  ]
+}
